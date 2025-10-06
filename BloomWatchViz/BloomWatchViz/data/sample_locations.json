@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "description": "Sample bloom monitoring locations for BloomSphere application",
+    "version": "1.0",
+    "last_updated": "2024-10-04",
+    "total_locations": 50,
+    "data_sources": ["MODIS", "Landsat", "VIIRS"],
+    "coverage_period": "2020-2024"
+  },
+  "regions": {
+    "north_america": {
+      "name": "North America",
+      "locations": [
+        {
+          "id": "NA_001",
+          "name": "Central Valley, California",
+          "lat": 36.7783,
+          "lon": -119.4179,
+          "ecosystem": "Agricultural",
+          "primary_crops": ["Almonds", "Grapes", "Cotton"],
+          "bloom_season": "March-May",
+          "historical_intensity": 0.68
+        },
+        {
+          "id": "NA_002", 
+          "name": "Great Plains, Kansas",
+          "lat": 38.5767,
+          "lon": -98.6048,
+          "ecosystem": "Grassland",
+          "primary_crops": ["Wheat", "Corn", "Sunflower"],
+          "bloom_season": "April-June",
+          "historical_intensity": 0.52
+        },
+        {
+          "id": "NA_003",
+          "name": "Appalachian Mountains, Virginia",
+          "lat": 37.5407,
+          "lon": -78.8694,
+          "ecosystem": "Deciduous Forest",
+          "primary_crops": ["Mixed Hardwoods"],
+          "bloom_season": "April-May",
+          "historical_intensity": 0.74
+        },
+        {
+          "id": "NA_004",
+          "name": "Columbia River Valley, Oregon",
+          "lat": 45.6372,
+          "lon": -121.1086,
+          "ecosystem": "Mixed Forest",
+          "primary_crops": ["Fruit Trees", "Berries"],
+          "bloom_season": "March-June",
+          "historical_intensity": 0.69
+        },
+        {
+          "id": "NA_005",
+          "name": "Prairie Pothole Region, North Dakota",
+          "lat": 47.9513,
+          "lon": -100.4659,
+          "ecosystem": "Wetland",
+          "primary_crops": ["Native Grasses", "Wildflowers"],
+          "bloom_season": "May-August",
+          "historical_intensity": 0.58
+        }
+      ]
+    },
+    "europe": {
+      "name": "Europe",
+      "locations": [
+        {
+          "id": "EU_001",
+          "name": "Tuscany, Italy",
+          "lat": 43.3439,
+          "lon": 11.2148,
+          "ecosystem": "Mediterranean",
+          "primary_crops": ["Olives", "Grapes", "Sunflowers"],
+          "bloom_season": "April-June",
+          "historical_intensity": 0.61
+        },
+        {
+          "id": "EU_002",
+          "name": "Provence, France",
+          "lat": 43.9493,
+          "lon": 4.8055,
+          "ecosystem": "Mediterranean",
+          "primary_crops": ["Lavender", "Grapes", "Olives"],
+          "bloom_season": "May-July",
+          "historical_intensity": 0.71
+        },
+        {
+          "id": "EU_003",
+          "name": "Brandenburg, Germany",
+          "lat": 52.2297,
+          "lon": 13.2846,
+          "ecosystem": "Temperate Forest",
+          "primary_crops": ["Beech", "Oak", "Pine"],
+          "bloom_season": "April-May",
+          "historical_intensity": 0.56
+        },
+        {
+          "id": "EU_004",
+          "name": "Andalusia, Spain",
+          "lat": 37.3891,
+          "lon": -5.9845,
+          "ecosystem": "Mediterranean",
+          "primary_crops": ["Olives", "Almonds", "Citrus"],
+          "bloom_season": "February-April",
+          "historical_intensity": 0.64
+        },
+        {
+          "id": "EU_005",
+          "name": "Yorkshire Dales, England",
+          "lat": 54.2406,
+          "lon": -2.0581,
+          "ecosystem": "Temperate Grassland",
+          "primary_crops": ["Native Grasses", "Wildflowers"],
+          "bloom_season": "May-July",
+          "historical_intensity": 0.48
+        }
+      ]
+    },
+    "asia": {
+      "name": "Asia",
+      "locations": [
+        {
+          "id": "AS_001",
+          "name": "Hokkaido, Japan",
+          "lat": 43.2203,
+          "lon": 142.8635,
+          "ecosystem": "Temperate Forest",
+          "primary_crops": ["Cherry", "Apple", "Mixed Forest"],
+          "bloom_season": "April-June",
+          "historical_intensity": 0.73
+        },
+        {
+          "id": "AS_002",
+          "name": "Ganges Plain, India", 
+          "lat": 26.8467,
+          "lon": 80.9462,
+          "ecosystem": "Agricultural",
+          "primary_crops": ["Rice", "Wheat", "Mustard"],
+          "bloom_season": "November-March",
+          "historical_intensity": 0.55
+        },
+        {
+          "id": "AS_003",
+          "name": "Manchurian Plain, China",
+          "lat": 45.8038,
+          "lon": 126.5349,
+          "ecosystem": "Agricultural",
+          "primary_crops": ["Soybean", "Corn", "Rice"],
+          "bloom_season": "May-July",
+          "historical_intensity": 0.62
+        },
+        {
+          "id": "AS_004",
+          "name": "Central Anatolia, Turkey",
+          "lat": 39.1667,
+          "lon": 35.6667,
+          "ecosystem": "Steppe",
+          "primary_crops": ["Wheat", "Barley", "Native Grasses"],
+          "bloom_season": "April-June",
+          "historical_intensity": 0.49
+        },
+        {
+          "id": "AS_005",
+          "name": "Mekong Delta, Vietnam",
+          "lat": 10.0340,
+          "lon": 105.7881,
+          "ecosystem": "Wetland",
+          "primary_crops": ["Rice", "Fruit Trees"],
+          "bloom_season": "Year-round",
+          "historical_intensity": 0.67
+        }
+      ]
+    },
+    "south_america": {
+      "name": "South America",
+      "locations": [
+        {
+          "id": "SA_001",
+          "name": "Pampas, Argentina",
+          "lat": -34.6118,
+          "lon": -58.3960,
+          "ecosystem": "Grassland",
+          "primary_crops": ["Soybean", "Wheat", "Sunflower"],
+          "bloom_season": "September-December",
+          "historical_intensity": 0.59
+        },
+        {
+          "id": "SA_002",
+          "name": "Cerrado, Brazil",
+          "lat": -15.8267,
+          "lon": -47.9218,
+          "ecosystem": "Savanna",
+          "primary_crops": ["Soybean", "Corn", "Native Vegetation"],
+          "bloom_season": "September-March",
+          "historical_intensity": 0.66
+        },
+        {
+          "id": "SA_003",
+          "name": "Central Valley, Chile",
+          "lat": -33.4489,
+          "lon": -70.6693,
+          "ecosystem": "Mediterranean",
+          "primary_crops": ["Grapes", "Fruit Trees"],
+          "bloom_season": "September-November",
+          "historical_intensity": 0.57
+        },
+        {
+          "id": "SA_004",
+          "name": "Amazon Basin, Peru",
+          "lat": -3.7492,
+          "lon": -73.2531,
+          "ecosystem": "Tropical Rainforest",
+          "primary_crops": ["Native Forest Species"],
+          "bloom_season": "Year-round",
+          "historical_intensity": 0.81
+        },
+        {
+          "id": "SA_005",
+          "name": "Llanos, Colombia",
+          "lat": 4.5709,
+          "lon": -74.2973,
+          "ecosystem": "Tropical Grassland",
+          "primary_crops": ["Grasses", "Palm Trees"],
+          "bloom_season": "March-August",
+          "historical_intensity": 0.63
+        }
+      ]
+    },
+    "africa": {
+      "name": "Africa",
+      "locations": [
+        {
+          "id": "AF_001",
+          "name": "Nile Delta, Egypt",
+          "lat": 30.4518,
+          "lon": 31.1656,
+          "ecosystem": "Agricultural",
+          "primary_crops": ["Rice", "Cotton", "Wheat"],
+          "bloom_season": "March-May",
+          "historical_intensity": 0.54
+        },
+        {
+          "id": "AF_002",
+          "name": "Ethiopian Highlands, Ethiopia",
+          "lat": 9.1450,
+          "lon": 40.4897,
+          "ecosystem": "Highland Forest",
+          "primary_crops": ["Coffee", "Mixed Forest"],
+          "bloom_season": "March-June",
+          "historical_intensity": 0.69
+        },
+        {
+          "id": "AF_003",
+          "name": "Western Cape, South Africa",
+          "lat": -33.9249,
+          "lon": 18.4241,
+          "ecosystem": "Mediterranean",
+          "primary_crops": ["Fynbos", "Grapes", "Fruit Trees"],
+          "bloom_season": "August-October",
+          "historical_intensity": 0.72
+        },
+        {
+          "id": "AF_004",
+          "name": "Sahel, Mali",
+          "lat": 17.5700,
+          "lon": -3.9962,
+          "ecosystem": "Semi-arid Grassland",
+          "primary_crops": ["Millet", "Sorghum", "Native Grasses"],
+          "bloom_season": "June-September",
+          "historical_intensity": 0.42
+        },
+        {
+          "id": "AF_005",
+          "name": "Great Rift Valley, Kenya",
+          "lat": -0.0236,
+          "lon": 37.9062,
+          "ecosystem": "Savanna",
+          "primary_crops": ["Acacia", "Native Grasses"],
+          "bloom_season": "March-May, October-December",
+          "historical_intensity": 0.58
+        }
+      ]
+    },
+    "australia": {
+      "name": "Australia & Oceania",
+      "locations": [
+        {
+          "id": "AU_001",
+          "name": "Murray-Darling Basin, Australia",
+          "lat": -34.0522,
+          "lon": 140.9006,
+          "ecosystem": "Agricultural",
+          "primary_crops": ["Wheat", "Cotton", "Rice"],
+          "bloom_season": "September-November",
+          "historical_intensity": 0.51
+        },
+        {
+          "id": "AU_002",
+          "name": "Southwest Australia, Australia",
+          "lat": -31.9505,
+          "lon": 115.8605,
+          "ecosystem": "Mediterranean",
+          "primary_crops": ["Eucalyptus", "Native Shrubs"],
+          "bloom_season": "August-October",
+          "historical_intensity": 0.68
+        },
+        {
+          "id": "AU_003",
+          "name": "Canterbury Plains, New Zealand", 
+          "lat": -43.5321,
+          "lon": 172.6362,
+          "ecosystem": "Temperate Grassland",
+          "primary_crops": ["Pasture Grasses", "Crops"],
+          "bloom_season": "October-December",
+          "historical_intensity": 0.56
+        },
+        {
+          "id": "AU_004",
+          "name": "Queensland Coast, Australia",
+          "lat": -27.4698,
+          "lon": 153.0251,
+          "ecosystem": "Subtropical Forest",
+          "primary_crops": ["Native Forest", "Fruit Trees"],
+          "bloom_season": "September-November",
+          "historical_intensity": 0.71
+        },
+        {
+          "id": "AU_005",
+          "name": "Tasmania, Australia",
+          "lat": -41.4545,
+          "lon": 145.9707,
+          "ecosystem": "Temperate Forest",
+          "primary_crops": ["Eucalyptus", "Native Forest"],
+          "bloom_season": "October-December",
+          "historical_intensity": 0.65
+        }
+      ]
+    }
+  },
+  "bloom_intensity_scale": {
+    "0.0-0.2": "Minimal - Limited vegetation activity",
+    "0.2-0.4": "Low - Basic vegetation presence",
+    "0.4-0.6": "Moderate - Active vegetation growth",
+    "0.6-0.8": "High - Peak vegetation activity",
+    "0.8-1.0": "Maximum - Optimal bloom conditions"
+  },
+  "data_quality_indicators": {
+    "high": "Locations with >95% cloud-free observations",
+    "medium": "Locations with 80-95% cloud-free observations", 
+    "low": "Locations with <80% cloud-free observations"
+  },
+  "monitoring_priorities": [
+    {
+      "priority": "High",
+      "locations": ["NA_001", "EU_002", "AS_001", "SA_004", "AF_003"],
+      "reason": "Critical agricultural regions or biodiversity hotspots"
+    },
+    {
+      "priority": "Medium", 
+      "locations": ["NA_002", "EU_001", "AS_002", "SA_001", "AU_001"],
+      "reason": "Important agricultural or ecological areas"
+    },
+    {
+      "priority": "Low",
+      "locations": ["NA_005", "EU_005", "AS_004", "AF_004", "AU_003"],
+      "reason": "Research and baseline monitoring areas"
+    }
+  ]
+}
