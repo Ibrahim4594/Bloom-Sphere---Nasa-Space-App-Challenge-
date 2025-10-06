@@ -1,0 +1,25 @@
+Tracking when, where, and how extensively plants bloom opens up exciting possibilities—from unraveling the delicate relationships between plants, pollinators, and other animals; to understanding nutrient cycles, overall ecosystem productivity, and the spread of agricultural pests; to supporting beneficial crop management practices and public health initiatives.
+
+NASA's powerful suite of satellites and airborne sensors—such as the Earth Surface Mineral Dust Source Investigation (EMIT), a spectrometer that measures the composition of minerals on Earth’s surface; the Plankton, Aerosol, Cloud ocean Ecosystem (PACE) mission; the Airborne Visible/Infrared imaging Spectrometer (AVIRIS); the Landsat missions; the Moderate Resolution Imaging Spectroradiometer (MODIS); and the Visible Infrared Imaging Radiometer Suite (VIIRS)— offer an unparalleled view of Earth’s changing vegetation. This NASA data with its rich, unprecedented spectral, spatial, and temporal coverage, is publicly available, and can be used to detect bloom events around the globe.
+
+Objectives
+Your challenge is to harness the power of NASA Earth observation data to develop a tool that monitors and visualizes plant blooming events across the globe or within a specific local region, and directly addresses a specific vegetation monitoring, prediction, or management need at your chosen scale.
+
+Think about the significance of bloom events across diverse landscapes (from blooming deserts to agricultural lands) and throughout varying seasons (e.g., spring in both hemispheres, wet/dry cycles in mid-latitudes) and how they can inform and advance solutions for different applications (e.g., agricultural flowering crop monitoring, cotton harvesting predictions, pre and post-bloom disease management). How vital are these events as bio-indicators for pollen production, ecological studies (including invasive species detection), and phenology assessments (e.g., tracking peak bloom changes)? What impact can they have for real-world applications in your local region or at a global scale?
+
+Take advantage of NASA's high temporal resolution datasets, including the extensive Landsat archive, to detect and contextualize blooming events visually. How can your tool provide insightful descriptions of bloom characteristics? Can your tool provide potential inferences, such as species identification and ecological implications? More complex concepts are also welcomed! For example, your tool could leverage the temporal component of NASA Earth observations to monitor trends on blooming events across multiple years.
+
+Don’t forget to design for scalability. For example, if you create a visual tool that operates at the global scale, how could it be used to inform decisions at other scales? Can you demonstrate how your unique visualization can deliver actionable insights for targeted conservation efforts to be undertaken by specific end users?
+
+Think creatively and explore unconventional approaches! How will you leverage NASA’s imagery to detect bloom events and highlight their environmental benefits in the context of ongoing monitoring, prediction, and/or management decision needs for conservation? Will you build new visualizations, design predictive models, create an immersive experience, or a different visual tool? The complexity of your creation is entirely in your hands! Let your ideas bloom!
+
+Potential Considerations
+You may (but are not required to) consider the following:
+
+The temporal capability of NASA’s Earth observing satellites and the spatial resolution of the datasets used may impact the type of blooms that can be detected.
+Your tool could:
+Be interactive, and zoom into specific locations.
+Show trends across time.
+Explain ecological and conservation implications.
+What decisions could your tool inform?
+For data and resources related to this challenge, refer to the Resources tab at the top of the page.
